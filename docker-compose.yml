@@ -3,7 +3,7 @@ version: "3"
 services:
   # Create frontend container
   frontend:
-    build: ./tuma-kitu-frontend
+    build: ./frontend
     restart: always
     container_name: frontend-docker
     ports:
@@ -11,7 +11,7 @@ services:
   # Create backend container
   backend:
     # Create backend container
-    build: ./tuma-kitu-backend
+    build: ./backend
     ports:
       - "4000:4000"
     container_name: backend-docker

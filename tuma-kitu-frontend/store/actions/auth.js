@@ -1,0 +1,23 @@
+export const LOGIN_REQUEST = "LOGIN_REQUEST";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const SUCCESS = "SUCCESS";
+export const TOKEN = "TOKEN";
+export const LOGOUT = "LOGOUT";
+export const FORGOT_PASSWORD = "FORGOT_PASSWORD";
+export const TOP_UP_ACCOUNT = "TOP_UP_ACCOUNT";
+export const SEND_MONEY = "SEND_MONEY";
+export const RESET_PASSWORD = "RESET_PASSWORD";
+export const ACTIVATE_ACCOUNT = "ACTIVATE_ACCOUNT";
+export const ERROR_MESSAGE = "ERROR_MESSAGE";
+export const SET_ERR0R_NULL = "SET_ERR0R_NULL";
+
+export const FETCH_USER_BY_ID = "FETCH_USER_BY_ID";
+export const REFRESH_USER_BY_ID = "REFRESH_USER_BY_ID";
+export const REGISTER_USER_REQUEST = "REGISTER_USER_REQUEST";
+
+
+
+
+
+
